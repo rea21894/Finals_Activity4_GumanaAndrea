@@ -1,0 +1,19 @@
+<?php
+$purchase_amount = 1200;
+$discount = 0;
+
+if ($purchase_amount >= 1000) {
+    $discount = 0.20;
+} elseif ($purchase_amount >= 500) {
+    $discount = 0.10;
+} else {
+    $discount = 0;
+}
+
+$discount_amount = $purchase_amount * $discount;
+$final_total = $purchase_amount - $discount_amount;
+
+echo "Original Amount: ₱" . $purchase_amount . "<br>";
+echo "Discount Applied: " . ($discount * 100) . "%<br>";
+echo "Final Total: ₱" . $final_total;
+?>
