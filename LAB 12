@@ -1,0 +1,24 @@
+<?php
+$letter_grade = "B";
+
+switch (strtoupper($letter_grade)) {
+    case "A":
+        echo "Excellent";
+        break;
+    case "B":
+        echo "Good";
+        break;
+    case "C":
+        echo "Average";
+        break;
+    case "D":
+        echo "Poor";
+        break;
+    case "F":
+        echo "Failing";
+        break;
+    default:
+        echo "Invalid Grade";
+        break;
+}
+?>
