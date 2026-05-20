@@ -1,0 +1,19 @@
+<?php
+
+$choice = 2;
+
+switch ($choice) {
+    case 1:
+        echo "Action Selected: Add";
+        break;
+    case 2:
+        echo "Action Selected: Edit";
+        break;
+    case 3:
+        echo "Action Selected: Delete";
+        break;
+    default:
+        echo "Invalid selection.";
+        break;
+}
+?>
