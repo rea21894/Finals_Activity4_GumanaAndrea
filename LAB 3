@@ -1,0 +1,13 @@
+<?php
+$grade = 85;
+
+if ($grade >= 90 && $grade <= 100) {
+    echo "Excellent";
+} elseif ($grade >= 80 && $grade < 90) {
+    echo "Good";
+} elseif ($grade >= 70 && $grade < 80) {
+    echo "Average";
+} else {
+    echo "Failed";
+}
+?>
