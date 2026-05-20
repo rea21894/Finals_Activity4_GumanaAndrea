@@ -1,0 +1,10 @@
+<?php
+$fixed_password = "admin123";
+$user_input = "admin123";
+
+if ($user_input === $fixed_password) {
+    echo "Access Granted";
+} else {
+    echo "Access Denied";
+}
+?>
