@@ -1,0 +1,14 @@
+<?php
+$age = 20;
+$citizenship = "Filipino";
+
+if ($age >= 18) {
+    if ($citizenship == "Filipino") {
+        echo "You are eligible to vote.";
+    } else {
+        echo "You must be a Filipino citizen to vote.";
+    }
+} else {
+    echo "You must be 18 or older to vote.";
+}
+?>
