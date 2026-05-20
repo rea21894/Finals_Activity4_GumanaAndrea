@@ -1,0 +1,14 @@
+<?php
+$correct_username = "admin";
+$correct_password = "1234";
+
+// Simulated User Input
+$input_username = "admin";
+$input_password = "1234";
+
+if ($input_username === $correct_username && $input_password === $correct_password) {
+    echo "Login successful! Welcome, admin.";
+} else {
+    echo "Invalid username or password.";
+}
+?>
