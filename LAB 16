@@ -1,0 +1,18 @@
+<?php
+$color = "red";
+
+switch (strtolower($color)) {
+    case "red":
+        echo "Stop!";
+        break;
+    case "yellow":
+        echo "Slow down / Prepare to stop";
+        break;
+    case "green":
+        echo "Go!";
+        break;
+    default:
+        echo "Invalid traffic light color.";
+        break;
+}
+?>
